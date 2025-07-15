@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSON Formatter | EveryTool</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>JSON Formatter</h1>
+
+<textarea id="input" placeholder="Paste your raw JSON here..."></textarea>
+
+<div class="buttons">
+    <button onclick="formatJSON()">Format</button>
+    <button onclick="minifyJSON()">Minify</button>
+    <button onclick="clearText()">Clear</button>
+</div>
+
+<textarea id="output" placeholder="Formatted result will appear here..." readonly></textarea>
+
+<script src="assets/dev-tools/js/json-formatter.js"></script>
+</body>
+</html>
